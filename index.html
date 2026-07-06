@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manifesting Orcas | Travel Itinerary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://api.iconify.design/lucide:waves.svg?color=%231d2d24"
+    />
+  </head>
+  <body>
+    <header class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="hero-subtitle">August 2026 Adventure</span>
+        <h1>Manifesting Orcas</h1>
+        <p class="hero-description">
+          Yukon &bull; Alaska &bull; Vancouver Island
+        </p>
+      </div>
+    </header>
+
+    <nav class="itinerary-nav">
+      <button class="tab-btn active" onclick="switchPhase('yukon')">
+        Phase 1: Yukon & Alaska
+      </button>
+      <button class="tab-btn" onclick="switchPhase('vancouver')">
+        Phase 2: Vancouver Island
+      </button>
+    </nav>
+
+    <main class="container">
+      <section id="yukon" class="itinerary-phase active-phase">
+        <div class="phase-header">
+          <h2>The Wild North</h2>
+          <p>Days 1 – 9 &bull; Whitehorse, Skagway, & Juneau</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/63e41a83ec27254d193232ee/3520dd7a-388b-4b2f-b01e-aefb161a8306/Miles+Canyon+in+summer.jpg"
+                alt="Whitehorse, Yukon"
+              />
+              <span class="day-badge">Day 1 &bull; Aug 5</span>
+            </div>
+            <div class="card-content">
+              <h3>Arrival in Whitehorse</h3>
+              <p class="activity">
+                Fly to Whitehorse via Air North. Enjoy dinner at the famous
+                <strong>Klondike Rib & Salmon</strong>.
+              </p>
+              <div class="btn-group">
+                <button
+                  class="btn-info"
+                  onclick="
+                    showModal(
+                      'Air North 4N826',
+                      '4NTMPX',
+                      'Depart T1 @ 10:00 AM &bull; Arrive @ 12:45 PM',
+                    )
+                  "
+                >
+                  View Flight Details
+                </button>
+                <a
+                  href="https://www.google.com/search?q=Air+North+4N826+flight+status"
+                  target="_blank"
+                  class="btn-live-track"
+                  >📱 Live Flight Watch</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80"
+                alt="Kayaking"
+              />
+              <span class="day-badge">Day 2 &bull; Aug 6</span>
+            </div>
+            <div class="card-content">
+              <h3>Yukon River Kayaking</h3>
+              <p class="activity">
+                Embark on a scenic 3 to 4-hour river kayaking excursion covering
+                24 km of pristine northern waters.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&w=600&q=80"
+                alt="Northern Wildlife Encounter"
+              />
+              <span class="day-badge">Day 3 &bull; Aug 7</span>
+            </div>
+            <div class="card-content">
+              <h3>Wildlife & Hot Springs</h3>
+              <p class="activity">
+                Visit the <strong>Yukon Wildlife Preserve</strong> (Bus tours at
+                11am, 1pm, 3pm) and unwind at the
+                <strong>Takhini Hot Springs</strong>. Coffee stop at Bean North.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80"
+                alt="Kluane National Park"
+              />
+              <span class="day-badge">Day 4 &bull; Aug 8</span>
+            </div>
+            <div class="card-content">
+              <h3>Kluane National Park Hike</h3>
+              <p class="activity">
+                A magnificent day trip featuring a 4-hour roundtrip drive and a
+                trek on the stunning
+                <strong>Sheep Creek Trail</strong> (~6.5-hour hike).
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1582339882749-20f9776984a9?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Emerald Lake"
+              />
+              <span class="day-badge">Day 5 &bull; Aug 9</span>
+            </div>
+            <div class="card-content">
+              <h3>Drive to Skagway</h3>
+              <p class="activity">
+                Depart early for wildlife spotting. Route features stops at
+                breathtaking <strong>Emerald Lake</strong> and the historic town
+                of <strong>Carcross</strong>.
+              </p>
+              <span class="status-badge confirmed"
+                >✓ Overnight: Skagway Booked</span
+              >
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=600&q=80"
+                alt="Juneau Fjord"
+              />
+              <span class="day-badge">Day 6 &bull; Aug 10</span>
+            </div>
+            <div class="card-content">
+              <h3>Juneau & Mendenhall Glacier</h3>
+              <p class="activity">
+                All-day catamaran voyage (8:00 AM - 8:15 PM) to Juneau via the
+                Fjord Express. Explore
+                <strong>Mendenhall Glacier</strong> before returning.
+              </p>
+              <span class="status-badge confirmed">✓ Fjord Express Booked</span>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?auto=format&fit=crop&w=600&q=80"
+                alt="White Pass Train"
+              />
+              <span class="day-badge">Day 7 &bull; Aug 11</span>
+            </div>
+            <div class="card-content">
+              <h3>White Pass Train Journey</h3>
+              <p class="activity">
+                Take the iconic 3.5 to 4-hour
+                <strong>White Pass Scenic Train ride</strong>, then drive 2.5
+                hours back to Whitehorse late for optimum wildlife viewing.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-card flexible">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Boating on Deep Lake"
+              />
+              <span class="day-badge">Days 8–9 &bull; Aug 12-13</span>
+            </div>
+            <div class="card-content">
+              <h3>Open & Flexible Days</h3>
+              <p class="activity">
+                <strong>Aug 12:</strong> Boating with Matt, open trails, or
+                alternative hikes. <br /><strong>Aug 13:</strong> Packing and
+                final evening dinner gathering.
+              </p>
+              <span class="status-badge flex-tag">Flexible Structure</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="vancouver" class="itinerary-phase">
+        <div class="phase-header">
+          <h2>The Pacific Coast</h2>
+          <p>Days 10 – 14 &bull; Vancouver, Tofino, & Victoria</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1560814304-4f05b62af116?auto=format&fit=crop&w=600&q=80"
+                alt="Capilano Bridge"
+              />
+              <span class="day-badge">Day 10 &bull; Aug 14</span>
+            </div>
+            <div class="card-content">
+              <h3>Vancouver Arrival & Suspension Bridge</h3>
+              <p class="activity">
+                Fly from Whitehorse to Vancouver. Pick up the airport rental
+                car, explore <strong>Capilano Suspension Bridge</strong>, and
+                head to <strong>The Sandbar</strong> at Granville Island for
+                dinner.
+              </p>
+              <button
+                class="btn-info"
+                onclick="
+                  showModal(
+                    'Air North 4N509',
+                    '26318981',
+                    'Depart @ 7:00 AM &bull; Arrive @ 9:15 AM',
+                  )
+                "
+              >
+                View Travel Details
+              </button>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1707074004135-286597067a71?q=80&w=1708&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Cathedral Grove Outpost"
+              />
+              <span class="day-badge">Day 11 &bull; Aug 15</span>
+            </div>
+            <div class="card-content">
+              <h3>Ferry & Road Trip to Tofino</h3>
+              <p class="activity">
+                Catch the 2-hour ferry from Horseshoe Bay to Departure Bay
+                (Nanaimo). Road trip to Tofino via Coombs (Goats on the Roof)
+                and Cathedral Grove.
+              </p>
+              <span class="status-badge standard"
+                >Meet Up with Krystle & Jobsts</span
+              >
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1693507008229-263c54dd0e64?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Whale Watching Pacific"
+              />
+              <span class="day-badge">Day 12 &bull; Aug 16</span>
+            </div>
+            <div class="card-content">
+              <h3>Whale & Bear Watching Tour</h3>
+              <p class="activity">
+                An early wildlife cruise starting at 9:00 AM (Check-in 8:30 AM).
+                Spend the afternoon exploring beaches.
+              </p>
+              <span class="status-badge confirmed"
+                >✓ Overnight: Ucluelet Booked</span
+              >
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80"
+                alt="Scenic Gardens & Architecture"
+              />
+              <span class="day-badge">Day 13 &bull; Aug 17</span>
+            </div>
+            <div class="card-content">
+              <h3>Victoria Heritage & Gardens</h3>
+              <p class="activity">
+                Enjoy a scenic 4-hour coastal drive to Victoria. Spend the
+                afternoon strolling <strong>The Butchart Gardens</strong> and
+                visiting <strong>Hatley Castle</strong>.
+              </p>
+              <span class="status-badge confirmed"
+                >✓ Overnight: Sidney Booked</span
+              >
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1542382257-80dedb725088?auto=format&fit=crop&w=600&q=80"
+                alt="Plane Wing Flight Homeward"
+              />
+              <span class="day-badge">Day 14 &bull; Aug 18</span>
+            </div>
+            <div class="card-content">
+              <h3>Return Journey to Toronto</h3>
+              <p class="activity">
+                Board the 1.5-hour Swartz Bay to Tsawwassen ferry, return the
+                rental car, and catch your WestJet flight home.
+              </p>
+              <div class="btn-group">
+                <button
+                  class="btn-info"
+                  onclick="
+                    showModal(
+                      'WestJet WS714',
+                      'UNWGTY',
+                      'Depart @ 1:15 PM &bull; Arrive Toronto T3 @ 8:50 PM',
+                    )
+                  "
+                >
+                  View Flight Details
+                </button>
+                <a
+                  href="https://www.google.com/search?q=WestJet+WS714+flight+status"
+                  target="_blank"
+                  class="btn-live-track"
+                  >📱 Live Flight Watch</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="supplementary-ideas">
+        <h3>Local Discoveries & Ideas</h3>
+        <div class="ideas-grid">
+          <div class="idea-category">
+            <h4>Yukon Gems</h4>
+            <ul>
+              <li>Miles Canyon & Millennial Trail</li>
+              <li>Yukon Brewing & Winterlong Art</li>
+              <li>Shipyards Park Farmers Market (Thurs)</li>
+            </ul>
+          </div>
+          <div class="idea-category">
+            <h4>Alaska & BC Highlights</h4>
+            <ul>
+              <li>Dyea Flats & Chilkoot Trail Head</li>
+              <li>Yakutania Point (Smugglers Cove)</li>
+              <li>Tacofino (Tofino, BC)</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <div id="infoModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2 id="modalCarrier">Flight / Booking</h2>
+        <div class="modal-body">
+          <p>
+            <strong>Confirmation / Booking Ref:</strong>
+            <span id="modalCode" class="highlight-code">---</span>
+          </p>
+          <p id="modalNotes">Details go here...</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
